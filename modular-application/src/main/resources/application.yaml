@@ -1,0 +1,14 @@
+logging:
+  level:
+    com.zaxxer.hikari.HikariConfig: DEBUG
+
+#security:
+#  key:
+#    private: classpath:app.key
+#    public: classpath:app.pub
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: ${MONGODB_DB}

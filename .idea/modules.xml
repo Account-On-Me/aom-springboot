@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modular-application/aom.modular-application.main.iml" filepath="$PROJECT_DIR$/.idea/modules/modular-application/aom.modular-application.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-api/aom.module-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/module-api/aom.module-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-core/aom.module-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/module-core/aom.module-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/module-persistence/aom.module-persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/module-persistence/aom.module-persistence.main.iml" />
+    </modules>
+  </component>
+</project>
