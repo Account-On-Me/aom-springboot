@@ -17,6 +17,7 @@ dependencies {
 
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
     // test
     testImplementation("org.springframework.boot:spring-boot-starter-test") {

@@ -37,6 +37,11 @@ public class OrderRepositoryImpl implements OrderRepository {
     }
 
     @Override
+    public List<Order> findAllById(Iterable<ObjectId> ids) throws Exception {
+        return orderMongoRepository.findAllById(ids);
+    }
+
+    @Override
     public void delete(Order order) throws Exception {
         orderMongoRepository.deleteById(order.getId());
     }

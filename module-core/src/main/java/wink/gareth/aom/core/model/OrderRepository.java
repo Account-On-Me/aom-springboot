@@ -14,6 +14,8 @@ public interface OrderRepository {
 
     List<Order> findAll() throws Exception;
 
+    List<Order> findAllById(Iterable<ObjectId> ids) throws Exception;
+
     void delete(Order order) throws Exception;
 
     void deleteById(ObjectId id) throws Exception;
